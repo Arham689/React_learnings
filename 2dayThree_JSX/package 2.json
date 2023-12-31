@@ -1,0 +1,29 @@
+{
+  "name": "daythree_jsx",
+  "version": "1.0.0",
+  "description": "this is day three and lecture 4 ",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arham689/Slay_React.git"
+  },
+  "author": "Arham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arham689/Slay_React/issues"
+  },
+  "homepage": "https://github.com/Arham689/Slay_React#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  }
+}
