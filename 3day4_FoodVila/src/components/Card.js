@@ -2,7 +2,7 @@ import React from "react";
 import {imgBaseUrl} from '../config'
 const Card = ({name , cuisines , sla , avgRatingString , cloudinaryImageId})=>{
     return(
-      <div classNameName='Card-container'>
+      <div className='Card-container'>
         <img src={imgBaseUrl + cloudinaryImageId}
           width={200}
           height={190}

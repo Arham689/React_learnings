@@ -42,7 +42,7 @@ const Footer = ()=>{
                               <div className="footer-logo">
                                   {/* <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" className="img-fluid" alt="logo"></a> */}
                               </div>
-                              <div classNameName="footer-text">
+                              <div className="footer-text">
                                   <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
                                   elit,Lorem ipsum dolor sit amet.</p>
                               </div>
@@ -99,7 +99,7 @@ const Footer = ()=>{
                               <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
                           </div>
                       </div>
-                      <div classNameName="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                      <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                           <div className="footer-menu">
                               <ul>
                                   <li><a href="#">Home</a></li>
