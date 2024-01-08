@@ -1,19 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    width: 100vw;
-    height: 100vh;
-    background: #1a1a1a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .shimmer {
+.wrapper
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+.shimmer {
     position: relative; 
     background: #3a3a3a;
     background-image: linear-gradient(to right, #3a3a3a 0%, #3f3f3f 10%, #4a4a4a 20%, #3f3f3f 30%, #3a3a3a 50%, #3a3a3a 100%);
@@ -22,13 +12,18 @@
     
   /* Animantion */
     -webkit-animation-duration: 1s;
+    animation-duration: 1s;
     
     /* Specifies style for element when animation isn't playing */
     -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
     
     -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
     -webkit-animation-name: shimmer;
+    animation-name: shimmer;
     -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
   }
   
   @-webkit-keyframes shimmer {
@@ -65,7 +60,7 @@
   }
   
   #title {
-    width: 100%;
+    width: 90%;
     height: 30px;
     margin-bottom: 1rem;
   }

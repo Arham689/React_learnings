@@ -1,8 +1,182 @@
-
+import React from 'react'
+import './shimmerki.css'
 const Shimmer = () => {
+
     return (
         <>
-           <h1>THE DATA IS LOADING</h1>
+            <div className="wrapper">
+
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="square" class="shimmer"></div>
+                    <div id="content">
+                        <div id="title" class="shimmer"></div>
+                        <div id="desc">
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                            <div class="line shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </>
     )
 

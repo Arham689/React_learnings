@@ -27,6 +27,10 @@ body
     align-items: center;
     justify-content: space-between;
 
+    a{
+      color: #fff;
+    }
+
 }
 .Nav-top-level > img
 {
@@ -47,13 +51,14 @@ body
 
 .Body-top-level
 {
-    padding-top: 50px;
-    max-width: 1400px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    gap: 20px;
-    justify-content: center;
+  padding-top: 50px;
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 20px;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .Card-container
@@ -252,5 +257,44 @@ ul {
   max-width: 200px;
 }
 
+/* Your provided CSS styles here */
 
+.Body_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
 
+.Search_txt {
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 15px;
+}
+
+.Search_btn {
+  border-radius: 20px;
+  padding: 5px;
+  max-width: 200px;
+}
+
+.single-menu-container
+{
+  display: flex;
+  gap: 20px;
+  max-width: 1230px !important;
+  margin: 0 auto;
+  padding: 20px 0;
+  h4
+  {
+    color: green;
+  }
+  p
+  {
+    color: #878787;
+  }
+  img
+  {
+    border-radius: 20px;
+  }
+}

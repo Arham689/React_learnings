@@ -1,13 +1,14 @@
 import React from "react";
 import Card from './Card'
 import Shimmer from './shimmer'
-import { useState } from "react";
+import { useState , useEffect } from "react";
 import { restaurantList } from '../config'
+import {Link} from 'react-router-dom'
 const Body = () => {
   const [term, setTerm] = useState("");
-  const [felteredItems, setFelteredItmes] = useState(restaurantList)
-  // const [allItems, setAllItems] = useState(restaurantList);
-  const allItems = restaurantList
+  const [felteredItems, setFelteredItmes] = useState([])
+  const [allItems, setAllItems] = useState([]);
+
   function felterTheData(term, resList) {
     if (!term) {
       return resList;
@@ -18,21 +19,21 @@ const Body = () => {
   }
   // on every re-render this function get called and a new array will get stored in felteredItem
 
-  // useEffect(() => {
-  //   getRestData();
-  // }, [])
+  useEffect(() => {
+    getRestData();
+  }, [])
 
-  // async function getRestData() {
-  //   const fetchedData = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.1702401&lng=72.83106070000001&page_type=DESKTOP_WEB_LISTING')
-  //   let json = await fetchedData.json()
-  //   // console.log(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-  //   setFelteredItmes(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
-  //   setAllItems(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
-  //   console.log(allItems);
-  // }
+  async function getRestData() {
+    const fetchedData = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.7122218&lng=75.84813&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING')
+    let json = await fetchedData.json()
+    // console.log(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    setFelteredItmes(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
+    setAllItems(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
+    // console.log(allItems)
+  }
 
   // (allItems.length === 0) ? <Shimmer/> : 
-  return (
+  return (allItems?.length === 0) ? <Shimmer/> :  (
     <div className="Body_cont">
       <div >
         {/* event listner on starch bar to change the term  */}
@@ -53,7 +54,7 @@ const Body = () => {
         {
           felteredItems && felteredItems.map((restaurant) => {
             // console.log(restaurant);
-            return <Card key={restaurant?.info?.id} {...restaurant?.info} />
+            return <Link to={'/menus/' + restaurant?.info?.id } key={restaurant?.info?.id}><Card  {...restaurant?.info} /></Link>
           })
         }
       </div>
