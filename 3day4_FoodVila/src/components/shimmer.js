@@ -7,170 +7,170 @@ const Shimmer = () => {
             <div className="wrapper">
 
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>
                 <div id="container">
-                    <div id="square" class="shimmer"></div>
+                    <div id="square" className="shimmer"></div>
                     <div id="content">
-                        <div id="title" class="shimmer"></div>
+                        <div id="title" className="shimmer"></div>
                         <div id="desc">
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
-                            <div class="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
+                            <div className="line shimmer"></div>
                         </div>
                     </div>
                 </div>

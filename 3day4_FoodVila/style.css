@@ -26,7 +26,7 @@ body
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    text-decoration: none;
     a{
       color: #fff;
     }
@@ -281,11 +281,14 @@ ul {
 .single-menu-container
 {
   display: flex;
+  justify-content: space-between;
   gap: 20px;
   max-width: 1230px !important;
   margin: 0 auto;
   padding: 20px 0;
-  h4
+  div
+  {
+    h4
   {
     color: green;
   }
@@ -293,6 +296,8 @@ ul {
   {
     color: #878787;
   }
+  }
+  
   img
   {
     border-radius: 20px;

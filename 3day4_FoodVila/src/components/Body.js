@@ -24,7 +24,8 @@ const Body = () => {
   }, [])
 
   async function getRestData() {
-    const fetchedData = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.7122218&lng=75.84813&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING')
+    const fetchedData = await fetch('https://instafood.onrender.com/api/restaurants?lat=12.9351929&lng=77.62448069999999')
+    // https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.7122218&lng=75.84813&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING
     let json = await fetchedData.json()
     // console.log(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     setFelteredItmes(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
