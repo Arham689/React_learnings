@@ -34,7 +34,7 @@ body
 }
 .Nav-top-level > img
 {
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .Nav-top-level > ul
@@ -70,7 +70,8 @@ body
 
 .Card-container > img
 {
-    border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
 
 
@@ -280,12 +281,15 @@ ul {
 
 .single-menu-container
 {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.117);
+  border-radius: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
   gap: 20px;
   max-width: 1230px !important;
-  margin: 0 auto;
-  padding: 20px 0;
+  margin: 0 auto 20px auto;
+  padding: 20px ;
   div
   {
     h4
@@ -294,12 +298,22 @@ ul {
   }
   p
   {
-    color: #878787;
+    color: #bbbbbbc0;
+  }
+  button
+  {
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    border: solid black 3px;
+    margin-top: 15px;
   }
   }
   
   img
   {
     border-radius: 20px;
+    /* aspect-ratio:  1/1; */
+    object-fit: cover;
   }
 }

@@ -28,8 +28,10 @@ const Body = () => {
     // https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.7122218&lng=75.84813&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING
     let json = await fetchedData.json()
     // console.log(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-    setFelteredItmes(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
-    setAllItems(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
+    let temp1 = json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    setFelteredItmes(temp1)
+    let temp2 = json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    setAllItems(temp2)
     // console.log(allItems)
   }
 
