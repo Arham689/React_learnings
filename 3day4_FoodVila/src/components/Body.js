@@ -6,9 +6,17 @@ import { restaurantList } from '../config'
 import {Link} from 'react-router-dom'
 import {felterTheData} from '../../utils/helper'
 import useData from "../../hooks/useData";
+import useIsOnline from "../../hooks/useIsOnlie";
+import OfflinePage from "./OfflinePage";
 const Body = () => {
   const [term, setTerm] = useState("");
   const [allItems ,felteredItems , setFelteredItmes ] = useData();
+  const onlineStatus = useIsOnline();
+
+  if(!onlineStatus)
+  {
+    return <OfflinePage/>
+  }
 
   // (allItems.length === 0) ? <Shimmer/> : 
   return (felteredItems?.length === 0) ? <Shimmer/> :  (
