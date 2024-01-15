@@ -84,5 +84,5 @@ const approuts = createBrowserRouter(
   )
 const root = ReactDom.createRoot(document.getElementById("root"))
 
-root.render(<RouterProvider router={approuts}/>)
+root.render(<RouterProvider router={approuts}/>)  
 

@@ -2,7 +2,7 @@ import React from 'react'
 import useRestaurants from '../../hooks/useRestaurants'
 import { useParams } from 'react-router-dom'
 import SingleItemMenu from './SingleItemMenu'
-import Shimmer2 from'./Shimmertwo'
+import Shimmer from './shimmer'
 const RestaurantsMenu = () => {
     
     //useParams rading the url and returning the obj of all the parameter we have pass in the url :id , :name
@@ -10,7 +10,7 @@ const RestaurantsMenu = () => {
 
     const menuItems = useRestaurants(id);
 
-    return (menuItems.length === 0 )?<Shimmer2/> :(
+    return (menuItems.length === 0 )?<Shimmer/> :(
         <>
             <h1>Welcome to the iD : {id}</h1>
             
