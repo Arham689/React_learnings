@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Card from './Card'
 import Shimmer from './shimmer'
 import { useState , useEffect } from "react";
@@ -8,7 +8,9 @@ import {felterTheData} from '../../utils/helper'
 import useData from "../../hooks/useData";
 import useIsOnline from "../../hooks/useIsOnlie";
 import OfflinePage from "./OfflinePage";
+import myContext from "../../utils/constext";
 const Body = () => {
+  const {user , setUser} = useContext(myContext)
   const [term, setTerm] = useState("");
   const [allItems ,felteredItems , setFelteredItmes ] = useData();
   const onlineStatus = useIsOnline();
@@ -34,6 +36,31 @@ const Body = () => {
           Search
         </button>
       </div>
+      
+      {/* <div >
+        <input 
+        className="Search_txt" 
+        type="text" 
+        value={user.name} 
+        onChange={(e)=>{setUser({
+          name : e.target.value,
+          email : user.email
+      })}}
+      
+        />
+      </div>
+      <div >
+        <input 
+        className="Search_txt" 
+        type="text" 
+        value={user.email} 
+        onChange={(e)=>{setUser({
+          name : user.name,
+          email : e.target.value
+      })}}
+      
+        />
+      </div> */}
 
       <div className='Body-top-level'>
         {

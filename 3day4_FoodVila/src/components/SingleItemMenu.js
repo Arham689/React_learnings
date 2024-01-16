@@ -1,7 +1,11 @@
-import React from "react";
+import React , {useContext} from "react";
 import '../../style.css'
 import { imgBaseUrl } from '../config'
+import myContext from "../../utils/constext";
 const SingleItemMenu = ({Menu}) => {
+
+    const { user }  = useContext(myContext)
+
     let cost = Menu?.card?.info?.price 
     if(!cost) 
     {
@@ -20,6 +24,7 @@ const SingleItemMenu = ({Menu}) => {
                     <p>
                         {Menu?.card?.info?.description}
                     </p>
+                    {/* <p>{user.name}</p> */}
                     <div>
                     <button>-</button> 0 <button>+</button>
                     </div>
