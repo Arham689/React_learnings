@@ -13,6 +13,9 @@ import AboutClass from './components/AboutClass'
 import Profile from './components/Profile'
 import Shimmer from './components/shimmer'
 import myContext from '../utils/constext'
+import { Provider } from 'react-redux'
+import store from '../utils/store'
+import CartItems from './components/CartItems'
 
 // imgBaseUrl : https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/nqzyryfsgpchx3qnp2y6 
 
@@ -26,13 +29,15 @@ const Instamart = lazy(() => import("./Instamart"))
 // when we load instamart comp. first time it will throw a error because the script will take some time to load and react will try to render it 
 // to resolve this error we use supense component which is provided by React developers :)
 const AppLayout = () => {
+  // suppose we have call a api using useEffect and we have call the setUser -> then we are sending the data to provider to use by all child components
   const [user, setUser] = useState({
     name: "arham kahn",
     email: "abdularham689@gmail.com"
   })
   return (
     <>
-      {/* using mycontext.provider to over ride the default value fo context now user and setUser is in context  */}
+    <Provider store = {store}>
+      {/* using mycontext.provider to over-ride the default value fo context now user and setUser is in context  */}
       <myContext.Provider value={
         {
           user,
@@ -44,7 +49,9 @@ const AppLayout = () => {
         <hr />
         <Outlet />
         <Footer />
+
       </myContext.Provider>
+      </Provider>
     </>
   )
 }
@@ -83,6 +90,10 @@ const approuts = createBrowserRouter(
           path: '/instamart',
           element: <Suspense fallback={<Shimmer />}><Instamart /></Suspense>
           //to show the shimmer we use fallback prop supported in sespense comp which will accepet a shimmer comp. 
+        },
+        {
+          path : "/cart",
+          element : <CartItems/>
         }
 
       ]

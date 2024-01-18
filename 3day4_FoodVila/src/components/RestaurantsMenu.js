@@ -16,7 +16,7 @@ const RestaurantsMenu = () => {
             
             {   
                 menuItems.map((menu)=>{
-                    return <SingleItemMenu key={menu.card.info.id} Menu = {menu}/> 
+                    return <SingleItemMenu key={menu.card.info.id} Menu = {menu} /> 
                 })   
             }
         </>
