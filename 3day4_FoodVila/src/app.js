@@ -8,7 +8,7 @@ import { RouterProvider, createBrowserRouter, Outlet } from 'react-router-dom'
 import About from './components/About'
 import ErrorPage from './components/ErrorPage'
 import Contact from './components/Contact'
-import { useState } from 'react'
+
 import AboutClass from './components/AboutClass'
 import Profile from './components/Profile'
 import Shimmer from './components/shimmer'

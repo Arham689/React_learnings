@@ -4,7 +4,7 @@ import { imgBaseUrl } from '../config'
 import myContext from "../../utils/constext";
 import {  useDispatch, useSelector } from "react-redux";
 import {removeFromCart } from "../../utils/cartSlice";
-const SingleCartItems = ({Menu }) => {
+const SingleCartItems = ({Menu}) => {
     const dispatch = useDispatch() 
     const { user }  = useContext(myContext)
     let cost = Menu?.card?.info?.price 
@@ -33,7 +33,7 @@ const SingleCartItems = ({Menu }) => {
                     
                 </div>
                 <div>
-                    <img width={250} height={250} src={imgBaseUrl + Menu?.card?.info?.imageId} alt="can't load image" />
+                    <img src={imgBaseUrl + Menu?.card?.info?.imageId} alt="can't load image" />
                 </div>
                 
             </div>

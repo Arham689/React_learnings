@@ -12,7 +12,7 @@ body
     color: white;
 }
 
-/* css for nav bar */
+
 .container {
     max-width: 1230px !important;
     
@@ -177,8 +177,7 @@ ul {
 }
 .footer-widget ul li {
   display: inline-block;
-  /* -webkit-float : left; */
-  /* float: left; */
+  
   width: 50%;
   margin-bottom: 12px;
 }
@@ -320,6 +319,8 @@ ul {
   {
     border-radius: 20px;
     /* aspect-ratio:  1/1; */
+    width: 250px;
+    height: 250px;
     object-fit: cover;
   }
 }
@@ -422,5 +423,11 @@ ul {
   align-items: center;
 }
 @media (max-width: 500px) {
-    
+  .single-menu-container
+  {
+    img{
+      width: 100px;
+      height: 100px;
+    }
+  }
 }

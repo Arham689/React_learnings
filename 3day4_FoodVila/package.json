@@ -2,16 +2,19 @@
   "name": "3day4_foodvila",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "app.html",
   "scripts": {
     "start": "parcel index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.23.7",
     "parcel": "^2.10.3",
+    "parcel-bundler": "^1.12.5",
     "process": "^0.11.10"
   },
   "dependencies": {

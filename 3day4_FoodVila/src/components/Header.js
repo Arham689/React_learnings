@@ -16,9 +16,9 @@ import { useSelector } from 'react-redux'
          <ul>
           <li><Link to={'/'}>Home</Link></li>
           <li ><Link to={'/about'}>About us</Link> </li>
-          <li><Link to={'/contact'}>Contact us</Link></li>
+          {/* <li><Link to={'/contact'}>Contact us</Link></li> */}
           <li><Link to = {'/cart'}>Cart-{cartItems.length} </Link></li>
-          <li><Link to = {"/instamart"}>Instamart</Link></li>
+          <li><Link to = {"/instamart"}>Insta</Link></li>
           {/* <li>{user.name}</li>
           <p>{user.email}</p> */}
           <li>{isLogedin ?
